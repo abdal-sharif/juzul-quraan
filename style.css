@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Macondo&family=Roboto:wght@300&display=swap');
+:root {
+    --macondoText: 'Macondo', cursive;
+    --primaryColor: #698f3f;
+    --secondaryColor: #fca311;
+    --mainDark: #3a3e3b;
+    --mainWhite: #fff;
+    --mainGrey: #e5e5e5;
+    --mainTransition: all 0.3s ease-in-out;
+    --letterSpacing: 0.5rem;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.25rem;
+}
+/* helper classes */
+/* clearfix */
+.clearfix::before,
+.clearfix::after{
+    content: "";
+    clear: both;
+    display: table;
+}
+
+a{
+    text-decoration: none;
+    
+    
+}
+
+
+body{
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+}
+
+/* header site */
+
+
+
+.logo {
+
+    position: relative;
+    display: flex;
+    text-align: center;
+}
+
+.logo h3{
+    position: relative;
+    font-size: 22px;
+    left: 50%;
+    top: 20px;
+}
+
+
+.logo img{
+    position: relative;
+    position: absolute;
+    width:80px;
+    height: 80px;
+    left: 30%;
+    top: -10px;
+}
+
+
+.still{
+    position: relative;
+  
+}
+
+.still h3{
+    position: relative;
+    text-align: center;
+    top: 300px;
+    color: var(--mainDark);
+    font-family: var(--macondoText );
+}
+
+
+
+@media screen and (min-width:490px){
+
+    .logo {
+        top: 610px;
+        padding: 4rem;
+        font-size: 80px;
+        text-align: center;
+    }
+    .logo h3{
+     
+        left: 22%;
+        font-size: 100px;
+  
+    }
+
+    .logo img{
+        top: 10px;
+        left: 45%;
+        font-size: 80px;
+  
+    }
+
+      .still h3{
+          top: 900px;
+          font-size: 100px;
+          text-align: center;
+  
+      }
+}
+
+
