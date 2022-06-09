@@ -78,7 +78,6 @@ a{
     font-size: 3rem;
     color: var(--mainWhite);
     margin-top: 2.5rem;
-    text-transform: uppercase;
     margin-bottom: 1rem;
     animation: slideFromLeft 3s ease-in-out 1;
   }
