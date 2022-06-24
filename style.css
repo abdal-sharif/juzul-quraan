@@ -142,7 +142,7 @@ a{
 .section-title {
     font-size: 3rem;
     text-transform: uppercase;
-    color:var(--mainWhite);
+    color: green;
 
 
 
@@ -436,6 +436,7 @@ font-weight: bold;
   /* contact area */
   .contact{
     padding: 2rem;
+    background-color:#3a3e3b;
   }
   
   .contact-item{
@@ -443,21 +444,22 @@ font-weight: bold;
   }
   
   .contact-title{
-    color: gray;
-    text-transform: uppercase;
+    color: rgb(0, 0, 0);
     letter-spacing: var(--letterSpacing);
     font-size: 0.rem;
     margin-bottom: 0.5rem;
   }
   
   .contact-text{
-    text-transform: uppercase;
+      color: white;
   }
   
   .form-control{
     display: block;
     border: none;
     border-bottom: 2px solid  var(--mainDark);
+    background-color: gray;
+    border-radius: 15px;
     outline: none;
     margin: 2rem 0;
     padding: 1.3rem 0;
@@ -469,10 +471,11 @@ font-weight: bold;
   
   
   .form-control::placeholder{
-    text-transform: uppercase;
-    color:  lightgray;
-    letter-spacing: var(--letterSpacing);
-  
+ 
+    color: black;
+    padding: 1rem;
+    opacity: 0.4;
+
   }
   
   
